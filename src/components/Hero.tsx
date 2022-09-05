@@ -25,7 +25,7 @@ export const Hero = () => {
       <Box p="140px">
         <VStack textAlign="left" align="start" zIndex="base" color={textColors}>
           <Heading>5 Continentes, Infinitas possibilidades.</Heading>
-          <Text>
+          <Text color="gray.400">
             Chegou a hora de tirar do papel a viagem que você sempre sonhou.{' '}
           </Text>
         </VStack>
