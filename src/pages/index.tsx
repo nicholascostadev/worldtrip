@@ -1,19 +1,18 @@
 import type { NextPage } from 'next'
+import { Box } from '@chakra-ui/react'
 import Head from 'next/head'
+import { Header } from '../components/Header'
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <Box>
       <Head>
         <title>WorldTrip</title>
       </Head>
 
-      <main>
-        <div>
-          <h1>WorldTrip</h1>
-        </div>
-      </main>
-    </div>
+      <Header />
+      <main></main>
+    </Box>
   )
 }
 
