@@ -3,13 +3,11 @@ import {
   Flex,
   Heading,
   Text,
-  useColorMode,
   useColorModeValue,
   VStack,
 } from '@chakra-ui/react'
 import Image from 'next/image'
 import airplane from '../assets/airplane.svg'
-import heroBackground from '../assets/heroBackground.svg'
 
 export const Hero = () => {
   const textColors = useColorModeValue('white', 'initial')
